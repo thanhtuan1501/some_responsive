@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 200px ;
+    background-color:hsl(212, 100%, 85%) ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-1{
+    height: 250px;
+    background-color: #F5CF8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-2{
+    height: 250px;
+    background-color: #C8C6FA ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-3{
+    height: 250px;
+    background-color: #F09A9D ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up{
+    height: 150px;
+    background-color:#D6E9FE ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 300px;
+    background-color:#EAEDF0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .c-ct-2{
+        order: -2;
+    }
+    .c-ct-1{
+        order: -1;
+    }
+    .c-ct-1 .sign-up{
+        height: 250px;
+    }
+}
+@media (max-width: 740px) {
+    .c-ct-2{
+        order: -2;
+    }
+    .c-ct-1{
+        order: -1;
+    }
+}
+
